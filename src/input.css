@@ -16,7 +16,7 @@
   }
 
   .nav_link {
-    @apply text-lg py-1 relative transition-all duration-150 hover:text-acent before:content-[''] before:absolute before:w-2/3 before:h-px hover:before:origin-left before:bg-acent before:left-0 before:bottom-0 before:transition-all before:duration-150 before:scale-0 hover:before:scale-100 before:origin-right;
+    @apply text-lg py-1 relative transition-all duration-150 hover:text-acent before:content-[''] before:absolute before:w-2/3 before:h-px hover:before:origin-left before:bg-acent before:left-0 before:bottom-0 before:transition-transform before:duration-150 before:scale-0 hover:before:scale-100 before:origin-right;
   }
 
   .hamburger {
